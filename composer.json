@@ -1,0 +1,18 @@
+{
+    "name": "nova/hypernova-blade-directive",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Felipe Guizar Diaz",
+            "email": "felipegaiacharly@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nova\\Nova\\": "src/"
+        }
+    }
+}
