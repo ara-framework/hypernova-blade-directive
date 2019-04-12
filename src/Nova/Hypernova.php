@@ -1,6 +1,6 @@
 <?php
 
-namespace Nova\Nova;
+namespace Marconi\Nova;
 
 use Ramsey\Uuid\Uuid;
 

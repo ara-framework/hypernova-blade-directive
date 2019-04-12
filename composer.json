@@ -1,5 +1,5 @@
 {
-    "name": "nova/hypernova-blade-directive",
+    "name": "marconi1992/hypernova-blade-directive",
     "version": "1.0.0",
     "authors": [
         {
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Nova\\Nova\\": "src/"
+            "Marconi\\Nova\\": "src/"
         }
     }
 }

@@ -1,10 +1,10 @@
 <?php
 
-namespace Nova\Nova;
+namespace Marconi\Nova;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
-use Nova\Nova\Hypernova;
+use Marconi\Nova\Hypernova;
 
 class NovaServiceProvider extends ServiceProvider{
 
@@ -29,7 +29,7 @@ class NovaServiceProvider extends ServiceProvider{
     {
 
         Blade::directive('hypernova', function ($params) {
-            return "<?php echo \Nova\Nova\Support\Facades\Hypernova::renderPlaceholder($params, $params) ?>";
+            return "<?php echo \Marconi\Nova\Support\Facades\Hypernova::renderPlaceholder($params, $params) ?>";
         });
     }
 }

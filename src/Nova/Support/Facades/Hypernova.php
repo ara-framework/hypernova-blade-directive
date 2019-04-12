@@ -1,6 +1,6 @@
 <?php
 
-namespace Nova\Nova\Support\Facades;
+namespace Marconi\Nova\Support\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
