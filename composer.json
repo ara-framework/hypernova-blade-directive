@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "illuminate/support": "^5.8|^6.0"
+        "illuminate/support": "^7.22.4"
     },
     "autoload": {
         "psr-4": {
